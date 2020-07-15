@@ -1,6 +1,6 @@
 # Cell Ontology Training
 
-Training session for the [Cell Ontology](https://github.com/obophenotype/cell-ontology).
+A free virtual training session for the [Cell Ontology](https://github.com/obophenotype/cell-ontology). This training session is open to all, please register in advance. All skills levels are welcome, prior experience with ontologies is not necessaary.
 
 **Dates:**
 Thursday, Sept 24, 2020 and Oct 01, 2020
@@ -27,3 +27,6 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
     
 ## Contact
 
+Register [here](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform).
+
+For questions, contact the [Cell Ontology list]().
