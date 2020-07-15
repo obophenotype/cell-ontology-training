@@ -29,4 +29,4 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 
 Register [here](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform).
 
-For questions, contact the [Cell Ontology list]().
+For questions, contact the [Cell Ontology list](cl_edit@googlegroups.com).
