@@ -1,6 +1,6 @@
 # Cell Ontology Training
 
-Training session for the Cell Ontology.
+Training session for the [Cell Ontology](https://github.com/obophenotype/cell-ontology).
 
 **Dates:**
 Thursday, Sept 24, 2020 and Oct 01, 2020
@@ -25,3 +25,5 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
     - High throughput data - what should be captured in a Cell Ontology term
     - When to add a term, when will it be accepted?
     
+## Contact
+
