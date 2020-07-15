@@ -14,5 +14,7 @@ Training session for the Cell Ontology
     - Editing in Protege
     - Pull Requests
 4. Use cases
+    - Participant use cases - how do participants want to use the CL
     - High throughput data - what should be captured in a Cell Ontology term
     - When to add a term, when will it be accepted?
+    
