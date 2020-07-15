@@ -9,7 +9,7 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 8-11am PT / 11-2pm ET / 4-7pm UK
 
 
-## Draft agenda:
+## Agenda:
 
 1. Basic introduction to ontologies and ontology logic - why do we build ontologies and what we can do with them?
     - Why we build the logic and how we do that
