@@ -29,4 +29,4 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 
 Register [here](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform).
 
-For questions, contact cl_edit@googlegroups.com.
+For questions, please contact cl_edit@googlegroups.com.
