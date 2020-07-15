@@ -17,8 +17,8 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
     - Decisions that have gone into why the structure is the way it is
     - Imported ontologies, such as Uberon, GO, PRO
 3. Practical application:
-    - How to use GitHub to request terms
-    - Editing in Protege
+    - How to use [GitHub](https://github.com/obophenotype/cell-ontology/issues/) to request terms
+    - Editing in [Protege](https://protege.stanford.edu/)
     - Pull Requests
 4. Use cases
     - Participant use cases - how do participants want to use the CL?
