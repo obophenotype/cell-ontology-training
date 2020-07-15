@@ -25,6 +25,13 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
     - High throughput data - what should be captured in a Cell Ontology term
     - When to add a term, when will it be accepted?
     
+## Preparation
+
+Participants will need to have access to the following resources and tools prior to the training:
+- **GitHub account** - register for a free GitHub account [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+- **Protege** - download [here](https://protege.stanford.edu/)
+- _Optional_ **GitHub Desktop** - download [here](https://desktop.github.com/)
+
 ## Contact
 
 Register [here](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform).
