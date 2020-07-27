@@ -1,6 +1,6 @@
 ### Initial Preparation
 
-You will need to clone this [repository](https://github.com/obophenotype/cell-ontology-training) to download the exercise files in the **BDK14_exercises** folder.
+You will need to clone this [repository](https://github.com/obophenotype/cell-ontology-training) to download the exercise files in the **CL_Training_exercises** folder.
 
 Associated exercise files include:
 - basic-classification
