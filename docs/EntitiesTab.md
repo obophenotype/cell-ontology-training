@@ -4,11 +4,19 @@ You will see along the top of the screen various tabs. Each tab provides a diffe
 
 ![](./media/Figure9.png)
 
-Select the Entities tab and then select the Thing class. Thing is the root class for all OWL ontologies and it cannot be deleted in Protégé.  
+Select the Entities tab and then select the Thing class. Thing is the root class for all OWL ontologies and it cannot be deleted in Protégé. Click the arrow next to Thing to expand the hierarchy. In the cl-edit.owl file, you will see upper level BFO classes and some imported ontology upper level classes (like anatomical entity from UBERON and role from CHEBI).
 
-The Entities tab is split into two halves. The left-hand side provides a suite of panels for selecting various entities in your ontology. When a particular entity is selected the panels on the right-hand side display information about that entity. The entities panel is context specific, so if you have a class selected (like Thing) then the panels on the right are aimed at editing classes. The panels on the right are customizable. Based on prior use you may see new panes or alternate arrangements. 
+The Entities tab is split into two halves. The left-hand side provides a suite of panels for selecting various entities in your ontology. When a particular entity is selected the panels on the right-hand side display information about that entity. The entities panel is context specific, so if you have a class selected (like Thing) then the panels on the right are aimed at editing classes. The panels on the right are customizable. Based on prior use you may see new panes or alternate arrangements.
 
 ![](./media/Figure10.png)
+
+#### Searching in Protege
+
+You can navigate through the hierarchy to find the top level 'cell' class (*described below), or search for the class using the search bar on the right.
+
+![](./media/Figure10b.png)
+
+*'cell' is classified under continuant -> 'independent continuant' -> 'material entity' -> object -> cellular_component -> cell
 
 #### Creating your first class
 
