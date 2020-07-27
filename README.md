@@ -11,16 +11,17 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 
 ## Agenda:
 
-1. Basic introduction to ontologies and ontology logic - why do we build ontologies and what we can do with them?
+1. **Basic introduction to ontologies and ontology logic** - why do we build ontologies and what we can do with them? (David Osumi-Sutherland)
     - Why we build the logic and how we do that
-2. Structure of the Cell Ontology
+2. **History and Structure of the Cell Ontology** (Alex Diehl)
     - Decisions that have gone into why the structure is the way it is
     - Imported ontologies, such as Uberon, GO, PRO
-3. Practical application:
+    - Who has been using the CL
+3. **Practical application** (Nicole Vasilevsky, Alex Diehl, David Osumi-Sutherland)
     - How to use [GitHub](https://github.com/obophenotype/cell-ontology/issues/) to request terms
     - Editing in [Protege](https://protege.stanford.edu/)
     - Pull Requests
-4. Use cases
+4. **Use cases**
     - Participant use cases - how do participants want to use the CL?
     - High throughput data - what should be captured in a Cell Ontology term
     - When to add a term, when will it be accepted?
