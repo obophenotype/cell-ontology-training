@@ -11,7 +11,7 @@ Associated exercise files include:
 - domain-range
 - taxon-union
 
-These exercises were tested under Protégé 5.1. _Note: some screenshots may appear different if you are using a prior version of Protégé._
+These exercises were tested under Protégé 5.5. _Note: some screenshots may appear different if you are using a prior version of Protégé._
 
 #### Cloning the GitHub repository
 
