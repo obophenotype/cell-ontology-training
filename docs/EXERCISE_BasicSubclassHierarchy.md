@@ -1,6 +1,6 @@
 # EXERCISE: Basic Subclass Hierarchy
 
-Go to the directory basic-subclass in the BD2K14\_exercises folder and open /basic-subclass/chromosome-parts.owl.
+Go to the directory basic-subclass in the CL_Training_execises folder and open /basic-subclass/cell-training.owl.
 
 This example illustrates adding classes and class annotations into an existing Subclass hierarchy.
 
@@ -15,17 +15,17 @@ Constructs illustrated:
 **Instructions:**
 
 _Add Subclass_
-1. Open chromosome-parts.owl and navigate to the Entities tab.
-2. Add the class "replication fork" to the ontology as a subclass of 'chromosomal part'. (Don't worry about the ID.) _Note: Most ontologies use lowercase labels, except for proper names._
+1. Open cell-training.owl and navigate to the Entities tab.
+2. Add the class 'bone cell' to the ontology as a subclass of 'animal cell'. (Don't worry about the ID.) _Note: Most ontologies use lowercase labels, except for proper names._
     
-    a. To find the class 'chromosomal part', you can navigate through the hierarchy, or use the search function, see screenshot below. Make sure you select "Show all results". In the search results, double click on the highlighted class and it will open it up in the Class hierarchy pane.
+    a. To find the class 'animal cell', you can navigate through the hierarchy, or use the search function, see screenshot below. Make sure you select "Show all results". In the search results, double click on the highlighted class and it will open it up in the Class hierarchy pane.
 
 ![](./media/Figure26.png)
 
 _Moving around classes:_
 
-3. Add the term "intracellular non-membrane-bounded organelle" as a subclass of "Thing"
-4. Move it, by dragging and dropping, to place it as a subclass of 'non-membrane-bounded organelle' (if you do not see the class 'non-membrane-bounded organelle';, search for it by clicking the 'search' radio button in the upper right.)
+3. Add the term 'epithelial cell' as a subclass of "Thing"
+4. Move it, by dragging and dropping, to place it as a subclass of 'animal cell'.
 
 Your hierarchy should look something like this:
 
@@ -33,82 +33,31 @@ Your hierarchy should look something like this:
 
 _Annotations_
 
-The goal is to recreate the existing information from GO on the "replication fork" class.
+The goal is to recreate the existing information from CL on the 'epithelial cell' class.
 
-5. Click on the 'replication fork' class you just created.
+5. Click on the 'epithelial cell' class you just created.
 6. In the Annotations pane on the right, use the (+) next to 'Annotations' to add an annotation.
-
-![](./media/Figure27-2.png)
 
 You will add the annotation values listed are below, detailed instructions follow. Make sure you click on the correct annotation on the left for each annotation.
 
-**id:** GO\_0005657
+**id:** CL\_0000066
 
-**rdfs: label:** replication fork
+**rdfs: label:** 'epithelial cell'
 
-**definition:** The Y-shaped region of a replicating DNA molecule, resulting from the separation of the DNA strands and in which the synthesis of new strands takes place. Also includes associated protein complexes.
+**definition:** A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina.
+**database\_cross\_reference:** FB:ma
+**database\_cross\_reference:** GOC:tfm
+**database\_cross\_reference:** MESH:A11.436
+(Note- the dbxefs above should go on the definition)
 
-**database\_cross\_reference:** ISBN:0198547684
+**has\_exact\_synonym:** repitheliocyte
 
-**has\_related\_synonym:** replication focus
-
-**xref:** Wikipedia:Replication\_fork
-
-_Detailed instructions:_
-
-Add the following (using the values above)
-
-1. **A text definition for the class**
-- Click on the "replication fork" class, then click (+) by Annotations
-- By default, the window should be on the "Literal" tab
-- Click (select) "definition" on the left
-
-![](./media/Figure28.png)
-
-- Enter the definition in the window: The Y-shaped region of a replicating DNA molecule, resulting from the separation of the DNA strands and in which the synthesis of new strands takes place. Also includes associated protein complexes. _Note: Make sure there are not any extra spaces at the end of the sentence._
-- Click OK. The annotation should appear in the Annotations window.
-
-![](./media/Figure30.png)
-
-**2. dbxrefs to the text definition**
-
-- Click the (@) icon beside the definition annotation
-
-![](./media/Figure31.png)
-
-- A new box will open, and click the (+) beside Annotations
-- Select "database\_cross\_reference" in the left pane
-- Enter a value. This is often a PubMed ID (in the format PMID:xxxxxx) or your ORCID ID or initials. For this exercise, enter the initials: mah.
-- Repeat for the other cross reference: ISBN:0198547684
-- Your annotations should look like the screenshot below.
-
-![](./media/Figure32.png)
-
-**A related synonym**
-
-- Add an annotation to "replication fork" with the (+)
-- Choose "has\_related\_synonym" and enter the value: replication focus
-- Add an xref to the class itself:
-- click the (+) beside annotations
-- Choose database\_cross\_reference
-- Add xref (Wikipedia:Replication\_fork)
-- Click OK
-
-Your annotation pane should look something like this:
-
-![](./media/Figure33.png)
-
-**Synonym properties:**
-
-7. Add the subclass "site of double-strand break" to the ontology under "chromosomal part"
-8. Add a synonym with a dbxref annotation. E.g. synonym: "site of DSB" has\_exact\_synonym [PMID:21035408]
-
-![](./media/Figure34.png)
-
-Note that there are different synonym annotations:
-- has\_exact\_synonym: a synonym that has the exact same meaning as the class name
-- has\_narrow\_synonym: a more specific synonym
-- has\_related\_synonym: a related term
+**database_cross_reference:** BTO:0000414
+**database_cross_reference:** CALOHA:TS-2026
+**database_cross_reference:** CARO:0000077
+**database_cross_reference:** FBbt:00000124
+**database_cross_reference:** FMA:66768
+**database_cross_reference:** WBbt:0003672
 
 ## The Class description view
 
