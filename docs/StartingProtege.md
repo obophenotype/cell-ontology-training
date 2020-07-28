@@ -2,14 +2,6 @@
 
 When you start Protégé you are presented with a default empty ontology. 
 
-To open Protege on the command line, navigate to your directory where your application is stored. 
-See example below:
-```
-cd /Applications
-cd Protege-5.1.0/
-```
-Type the command `open Protege.app` to open the Protégé application.
-
 ![](./media/Figure1.png)
 
 We will begin by clicking into the Ontology IRI field and providing an IRI. The IRI will be used to identify our ontology on the Web. You can set the IRI to anything you want at this stage, for this tutorial we will use "http://purl.obolibrary.org/obo/owl-tutorial/ao-workshop.owl"
