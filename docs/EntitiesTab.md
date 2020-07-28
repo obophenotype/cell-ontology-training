@@ -54,7 +54,7 @@ By default, Protégé will use the ontology IRI, followed by a #, followed by yo
 
 #### Adding annotations properties
 
-Using Protégé you can add annotations such as labels, descriptions, database cross references (dbxrefs) to any OWL entity. The panel on the right, named Annotations, is where these annotations are added. 
+Using Protégé you can add annotations such as labels, definitions, synonyms, database cross references (dbxrefs) to any OWL entity. The panel on the right, named Annotations, is where these annotations are added. 
 
 Use this panel to add a definition to the class you created. Select the + button to add an annotation to the selected entity. Click on the annotation 'definition' on the left and copy and paste in the definition to the white editing box on the right. Click OK. 
 
@@ -63,6 +63,10 @@ Definition: Muscle precursor cells that delaminate from the dermomyotome after e
 ![](./media/Figure20.png)
 
 ![](./media/Figure21.png)
+
+Definitions in CL should have a 'database cross reference' (dbxref), which is a reference to the definition source, such as a paper from the primary literature or another databse. For references to papers, we cross reference the PubMed Identfier in the format, PMID:XXXXXXXX.
+
+To add a dbxref to the definition, click the @ symbol next to the definition, then click the + button next in the pop-up window.
 
 ![](./media/Figure22.png)
 
