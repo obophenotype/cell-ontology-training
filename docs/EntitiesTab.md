@@ -70,5 +70,7 @@ To add a dbxref to the definition, click the @ symbol next to the definition, th
 
 ![](./media/Figure22.png)
 
+![](./media/Figure22b.png)
+
 CL includes a pre-declared set of annotation properties such as ‘has exact synonym’ and ‘definition’. 
 
