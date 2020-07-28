@@ -1,4 +1,4 @@
-### The entities tab
+### Entities tab
 
 You will see along the top of the screen various tabs. Each tab provides a different perspective on the ontology. An entity is any class, property (object, data, or annotation), or individual. For example, the classes tab allows us to view and edit the classes in the ontology, and similarly the object properties tab focuses on the object properties in the ontology. The _primary tab_ where you will spend most of your time is the Entities tab.
 
@@ -32,7 +32,7 @@ Note - if you edit more than one ontology in Protege, you will need to update yo
 
 Note that all OBO library ontologies should use the “Specified URI” value: http://purl.obolibrary.org/obo
 
-#### Creating your first class
+#### Creating a new class
 
 New classes are created in the **Class hierarchy panel on the left.**
 
@@ -54,7 +54,15 @@ By default, Protégé will use the ontology IRI, followed by a #, followed by yo
 
 #### Adding annotations properties
 
-Using Protégé you can add annotations such as labels, definitions, synonyms, database cross references (dbxrefs) to any OWL entity. The panel on the right, named Annotations, is where these annotations are added. CL includes a pre-declared set of annotation properties such as ‘has exact synonym’ and ‘definition’. 
+Using Protégé you can add annotations such as labels, definitions, synonyms, database cross references (dbxrefs) to any OWL entity. The panel on the right, named Annotations, is where these annotations are added. CL includes a pre-declared set of annotation properties. The most commonly used annotations are:
+- rdfs:label
+- definition
+- has_exact_synonym
+- has_broad_synonym
+- has_narrow_synonym
+- has_related synonym
+- database_cross_reference
+- rdfs:comment
 
 Use this panel to add a definition to the class you created. Select the + button to add an annotation to the selected entity. Click on the annotation 'definition' on the left and copy and paste in the definition to the white editing box on the right. Click OK. 
 
