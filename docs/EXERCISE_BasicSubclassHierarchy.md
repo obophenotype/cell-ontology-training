@@ -61,11 +61,11 @@ You will add the annotation values listed are below, detailed instructions follo
 
 ## The Class description view
 
-Open the ontology chromosome-parts-interim.owl, found in the "basic-subclass" exercise folder.  Save it to your local computer using Save-as.
-
-We have seen how to add sub/superclasses and annotate the class hierarchy. Another way to do the same thing is via the Class description view (circled in the figure below). When an OWL class is selected in the entities view, the right-hand side of the tab shows the class description panel. If we select the **cell** class, we see in the class description view that this class is a "SubClass Of" (= has a _SuperClass_) the **cellular\_component** class. Using the (+) button beside "SubClass Of" we could add another superclass to the cell class.
+We have seen how to add sub/superclasses and annotate the class hierarchy. Another way to do the same thing is via the Class description view (circled in the figure below). When an OWL class is selected in the entities view, the right-hand side of the tab shows the class description panel. If we select the **'smooth muscle cell'** class, we see in the class description view that this class is a "SubClass Of" (= has a _SuperClass_) the **'non-striated muscle cell'** class. Using the (+) button beside "SubClass Of" we could add another superclass to the ''smooth muscle cell'' class.
 
 ![](./media/Figure35.png)
+
+# STOPPED HERE
 
 Select the **intracellular organelle part** class in your ontology. Notice it is a SubClass of **organelle part.** Using the SubClass Of (+) button, add the **organelle** class as a super class. There are various ways to assert a superclass. The simplest it to just type in the class expression editor. _Hint: Pressing Tab (or CTRL + SPACE on a Mac) allows you to autocomplete on a term._
 
