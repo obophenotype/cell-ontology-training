@@ -75,6 +75,36 @@
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>&apos;fungal cell&apos;</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000047"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>&apos;muscle cell&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000053"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>&apos;smooth muscle cell&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000051"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>&apos;non-striated muscle cell&apos;</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
