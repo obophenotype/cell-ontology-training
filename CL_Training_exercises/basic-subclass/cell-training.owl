@@ -92,8 +92,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0041093"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <rdfs:label>&apos;smooth muscle cell&apos;</rdfs:label>
+        <rdfs:label>smooth muscle cell</rdfs:label>
     </owl:Class>
     
 
@@ -114,6 +115,24 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000047"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>visceral muscle cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0041094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0041094">
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>abnormal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0041095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0041095">
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>cell in vitro</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
