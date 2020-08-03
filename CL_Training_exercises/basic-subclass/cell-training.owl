@@ -42,6 +42,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000045">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0041095"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>native cell</rdfs:label>
     </owl:Class>
@@ -52,8 +53,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0041095"/>
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <rdfs:label>&apos;eukaryotic cell&apos;</rdfs:label>
+        <rdfs:label>eukaryotic cell</rdfs:label>
     </owl:Class>
     
 
