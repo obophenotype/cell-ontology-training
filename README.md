@@ -17,7 +17,7 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
     - Decisions that have gone into why the structure is the way it is
     - Imported ontologies, such as Uberon, GO, PRO
     - Who has been using the CL
-3. **Practical application** (Nicole Vasilevsky, Alex Diehl, David Osumi-Sutherland)
+3. **[Practical application](https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit)** (Nicole Vasilevsky, Alex Diehl, David Osumi-Sutherland)
     - How to use [GitHub](https://github.com/obophenotype/cell-ontology/issues/) to request terms
     - Editing in [Protege](https://protege.stanford.edu/)
     - Pull Requests
