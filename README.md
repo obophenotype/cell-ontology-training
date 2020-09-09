@@ -41,6 +41,10 @@ Participants will need to have access to the following resources and tools prior
   - Restart Protege. You should see ELK 0.5 installed in your Reasoner menu
 - _Optional_ **GitHub Desktop** - Please make sure you have some kind of git client installed on your Machine. If you are new to Git, please install [GitHub Desktop](https://desktop.github.com/)
 
+<!-- ## Join the Slack workspace -->
+
+<!--  Join the anatomy-and-cell-ontologies workspace [here]() and join the cl-training channel [here](https://anatomy-and-cell-onto.slack.com/archives/C01A7LRAKN1). -->
+
 ## Contact
 
 Register [here](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform).
