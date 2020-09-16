@@ -8,6 +8,9 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 **Time:**
 8-11am PT / 11-2pm ET / 4-7pm UK
 
+**Zoom**
+https://zoom.us/j/95194536310?pwd=NGhoanNMY3dNRXFpVmlVRjc5K28rZz09
+Password: Please [register](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform) to obtain the password. 
 
 ## Agenda:
 
