@@ -12,6 +12,8 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 https://zoom.us/j/95194536310?pwd=NGhoanNMY3dNRXFpVmlVRjc5K28rZz09  
 Password: Please [register](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform) to obtain the password. 
 
+Note - the entire session will be recorded.
+
 ## Agenda:
 
 1. **Basic introduction to ontologies and ontology logic** - why do we build ontologies and what we can do with them? (David Osumi-Sutherland)
