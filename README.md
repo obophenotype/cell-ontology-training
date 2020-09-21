@@ -57,4 +57,4 @@ Register [here](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xI
 
 For questions, please contact cl_edit@googlegroups.com.
 
-![test](TestRecording.mov)
+![test](docs/media/TestRecording.mov)
