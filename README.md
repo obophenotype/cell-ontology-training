@@ -36,8 +36,8 @@ Note - the entire session will be recorded.
 
 Participants will need to have access to the following resources and tools prior to the training:
 - **GitHub account** - register for a free GitHub account [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
-- **Protege** - Please install Protege 5.5, oownload it [here](https://protege.stanford.edu/)
-- Please try and install **ELK 0.5** (For a video showing how to install Elk, click [here](docs/media/TestRecording.mov), and download the .mov file.) 
+- **Protege** - Please install Protege 5.5, download it [here](https://protege.stanford.edu/)
+- Please try and install **ELK 0.5** (_For a video showing how to install Elk, click [here](docs/media/TestRecording.mov), and download the .mov file._) 
   - Click here to get the latest [Protege Plugin latest build](https://oss.sonatype.org/service/local/artifact/maven/content?r=snapshots&g=org.semanticweb.elk&a=elk-distribution-protege&e=zip&v=LATEST) (this is available on the bottom of [ELK pages](https://github.com/liveontologies/elk-reasoner/wiki/GettingElk). This will download a zipped file.)
   - When downloaded, unzip and copy puli and elk jars (two .jar files) in the unpacked directory.
   -  Paste these files in your Protege plugin directory. This is in one of two locations:
