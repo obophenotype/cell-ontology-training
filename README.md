@@ -47,6 +47,8 @@ Participants will need to have access to the following resources and tools prior
   - Important: it seems Elk 0.5. Does not work with all versions of Protege, in particular, 5.2 and below. These instructions were only tested with Protege 5.5!
 - _Optional_ **GitHub Desktop** - Please make sure you have some kind of git client installed on your Machine. If you are new to Git, please install [GitHub Desktop](https://desktop.github.com/)
 
+[test](docs/media/TestRecording.mov)
+
 <!-- ## Join the Slack workspace -->
 
 <!--  Join the anatomy-and-cell-ontologies workspace [here]() and join the cl-training channel [here](https://anatomy-and-cell-onto.slack.com/archives/C01A7LRAKN1). -->
