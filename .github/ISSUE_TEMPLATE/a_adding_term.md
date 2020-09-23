@@ -3,7 +3,7 @@ name: Add term
 about: New term suggestion for CL
 assignees: nicolevasilevsky, dosumis, addiehl
 title: "[NTR]"
-labels: 'new term request'
+labels: 'New term request'
 ---
 
 Note - please check that the term does not already exist (check OLS: https://www.ebi.ac.uk/ols/ontologies/cl)
