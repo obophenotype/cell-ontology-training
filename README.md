@@ -16,14 +16,15 @@ Note - the entire session will be recorded.
 
 ## Agenda:
 
-1. **Basic introduction to ontologies and ontology logic** - why do we build ontologies and what we can do with them? (David Osumi-Sutherland)
-    - Why we build the logic and how we do that
-2. **History and Structure of the Cell Ontology** (Alex Diehl)
+1. **History and Structure of the Cell Ontology** (Alex Diehl)
     - Decisions that have gone into why the structure is the way it is
     - Imported ontologies, such as Uberon, GO, PRO
     - Who has been using the CL
+2.  **[Basic introduction to ontologies and ontology logic](https://docs.google.com/presentation/d/11WeCHCeGYSPEO7hUYFTdPivptxX4ajj5pVHDm24j4JA/edit?usp=sharing)** - why do we build ontologies and what we can do with them? (David Osumi-Sutherland)
+    - Why we build the logic and how we do that
 3. **Practical application** (Nicole Vasilevsky, Alex Diehl, David Osumi-Sutherland)
     - How to use [GitHub](https://github.com/obophenotype/cell-ontology/issues/) to request terms
+    - Browsing, searching and querying in [Protege](https://protege.stanford.edu/)
     - Editing in [Protege](https://protege.stanford.edu/)
     - Pull Requests
     <!-- - Cell Ontology Practical Training materials are [here}(https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit) -->
