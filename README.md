@@ -12,7 +12,7 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 https://zoom.us/j/95194536310  
 Password: Please [register](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform) to obtain the password. 
 
-Note - the entire session will be recorded.
+Note - the practical application session will be recorded.
 
 ## Agenda:
 
@@ -47,6 +47,7 @@ Participants will need to have access to the following resources and tools prior
   - Restart Protege. You should see ELK 0.5 installed in your Reasoner menu. 
   - Important: it seems Elk 0.5. Does not work with all versions of Protege, in particular, 5.2 and below. These instructions were only tested with Protege 5.5!
 - _Optional_ **GitHub Desktop** - Please make sure you have some kind of git client installed on your Machine. If you are new to Git, please install [GitHub Desktop](https://desktop.github.com/)
+- Set your preferences in Protege, find your ID range [here](https://github.com/obophenotype/cell-ontology/blob/master/src/ontology/cl-idranges.owl)
 
 ## Related Workshop: CELLS 2020 Workshop
 
@@ -60,6 +61,14 @@ Friday, September 25, 2020, 11 am to 1:30 pm, US Eastern Time Zone
 - [Monkeying around with OWL: Musings on building and using ontologies](https://douroucouli.wordpress.com/): Blog posts by Chris Mungall.
 - [Managing Translational Informatics Projects (MTIP)](https://data2health.github.io/mtip-tutorial): Includes GitHub tutorials.
 
+## Slides and Recordings:
+- [History and Structure of the Cell Ontology](https://drive.google.com/file/d/13Jxj36KLh5uQoD-vcIcZQnxZYzTWuWlX/view) (Alex Diehl)
+- [Basic introduction to ontologies and ontology logic](https://docs.google.com/presentation/d/11WeCHCeGYSPEO7hUYFTdPivptxX4ajj5pVHDm24j4JA/edit?usp=sharing) (David Osumi-Sutherland)
+- [Pracical application Day 1 Recording](https://www.dropbox.com/s/355bgyzr03gpqrk/CellOntologyTraining_Day1_PracticalApplication_2020-09-24.mp4?dl=0) (Nicole Vasilevsky, David Osumi-Sutherland, Alex Diehl). On Day 1 we covered:
+    - create a ticket in the [Cell Ontology GitHub repository](https://github.com/obophenotype/cell-ontology/issues)
+    - create a fork from GitHub
+    - browsing, searching and querying the Cell Ontology
+    - set up preferences in Protege. **Note** - you can find your ID range [here](https://github.com/obophenotype/cell-ontology/blob/master/src/ontology/cl-idranges.owl)
 
 ## Contact
 
