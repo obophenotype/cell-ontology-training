@@ -56,9 +56,9 @@ Friday, September 25, 2020, 11 am to 1:30 pm, US Eastern Time Zone
 
 ## Resources
 
-- [Ontology tutorials and Resources](https://tislab.org/ontologyResources.html)
-- [Monkeying around with OWL: Musings on building and using ontologies, posts by Chris Mungall](https://douroucouli.wordpress.com/)
-- [Managing Translational Informatics Projects (MTIP)](https://data2health.github.io/mtip-tutorial)
+- [Ontology tutorials and Resources](https://tislab.org/ontologyResources.html): Includes links to ontology browsers, past tutorials and slides, links to ontology tools and relevant publications.
+- [Monkeying around with OWL: Musings on building and using ontologies](https://douroucouli.wordpress.com/): Blog posts by Chris Mungall.
+- [Managing Translational Informatics Projects (MTIP)](https://data2health.github.io/mtip-tutorial): Includes GitHub tutorials.
 
 
 ## Contact
