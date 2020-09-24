@@ -1,0 +1,81 @@
+11:00:59	 From Nicole Vasilevsky : Hi everyone!
+11:01:20	 From Meena : hi all :-)
+11:02:09	 From Marion Shadbolt : Hello :)
+11:03:40	 From Kathy Reinold : Stepping out for a minute
+11:04:15	 From Nicole Vasilevsky : Here is a doc for you to follow along for the practical session:
+11:04:17	 From Nicole Vasilevsky : https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit?ts=5f6b834e#
+11:08:17	 From Nico Matentzoglu : If you have any issues at all in the practical sessions, contact me; either on slack or here! I will be listening :)
+11:10:17	 From Alexander Diehl : https://drive.google.com/file/d/13Jxj36KLh5uQoD-vcIcZQnxZYzTWuWlX/view?usp=sharing
+11:10:22	 From Alexander Diehl : My slides
+11:12:55	 From Nicole Vasilevsky : Note: all the slides and practical training doc are linked from the GitHub page: https://github.com/obophenotype/cell-ontology-training/blob/master/README.md
+11:13:58	 From davidos : Alex’s slides here: https://drive.google.com/file/d/13Jxj36KLh5uQoD-vcIcZQnxZYzTWuWlX/view
+11:31:03	 From TiagoLubiana : 
+It is amazing how diverse are the ways of defining cell types. I wonder how to make the definitions coherent. 
+For example, the definition of neutrophils has a part "a granular leukocyte having a nucleus with three to five lobes".
+But in single-cell RNA-seq data there is no information about # of nuclear lobes, only expression of genes. 
+So, in practice, is it okay to take the definition in a slight more loose way when annotating real-world data?
+11:32:44	 From Meena : coud it use the relation name:  _has function_ or _has role in_  to connect a structure and function (rather than _capable of_)
+11:40:13	 From Chris Briggs : Please post those links in the CHAT??
+11:40:42	 From Nico Matentzoglu : https://sites.google.com/view/cells-2020-workshop/home
+11:40:48	 From davidos : Hi Tiago,  Good point
+11:41:21	 From davidos : It is often a challenge to map between modalities.
+11:41:28	 From TiagoLubiana : If some criteria for data annotation can be overlooked if insufficient data is available (which is resonable), does that mean definitions are not "complete"? 
+11:41:46	 From davidos : +1
+11:50:52	 From TiagoLubiana : 
+Thanks for the answers! I wonder how then to state these "known facts" ontologically. For example, to represent that if a cell expresses "CD3" and "CD4" then it entails that it is achromatic. 
+
+11:54:23	 From Meena : ok 
+11:54:56	 From Kathy Reinold : Will you capture the chat and share later?  Useful info here!
+11:55:44	 From Alexander Diehl : Yes, if a cell expresses CD3 or CD4 it does entail that it is achromatic (T cell are leukocytes, AKA white blood cells, in other words)
+11:56:09	 From Ellen Quardokus, MC-IU : are David’s slides available too?
+11:56:22	 From Nicole Vasilevsky : yes, linked from the GitHub repo
+11:56:25	 From Nicole Vasilevsky : I’ll share here, one sec
+11:56:36	 From Nicole Vasilevsky : David’s slides: https://docs.google.com/presentation/d/11WeCHCeGYSPEO7hUYFTdPivptxX4ajj5pVHDm24j4JA/edit
+11:56:45	 From Chris Briggs, HMS-HIVE : There’s a presentation folder they should go into.
+11:57:14	 From Nicole Vasilevsky : good idea Chris, will do
+11:59:47	 From Nicole Vasilevsky : Done, slides are also available here: https://github.com/obophenotype/cell-ontology-training/tree/master/presentations
+12:06:31	 From Alexander Diehl : Direct download:  http://purl.obolibrary.org/obo/cl.owl
+Information:  http://www.obofoundry.org/ontology/cl.html
+Browsers:  http://www.ontobee.org, https://www.ebi.ac.uk/ols/index, https://bioportal.bioontology.org
+Github Repository:  https://github.com/obophenotype/cell-ontology 
+Protégé editor:  https://protege.stanford.edu
+12:30:22	 From Laurel Cooper : Great idea!
+12:30:40	 From Alexander Diehl to davidos (Privately) : Return at 12:40 pm ET
+12:36:45	 From Alexander Diehl : Return at 12:40 pm ET
+12:42:15	 From Nicole Vasilevsky : Are we ready to get started again?
+12:44:01	 From Meena : yes
+12:49:04	 From Nico Matentzoglu : If you need help setting up your account, you can send me a message here!
+13:07:10	 From Paola Roncaglia : and lowercase :-)
+13:12:05	 From TiagoLubiana : Wikipedia pages have Wikidata links:
+ https://www.wikidata.org/wiki/Q3916640
+From Wikidata, I found a FMA entry for lower motor neuron: https://bioportal.bioontology.org/ontologies/FMA/?p=classes&conceptid=http%3A%2F%2Fpurl.org%2Fsig%2Font%2Ffma%2Ffma84632&jump_to_nav=true
+13:22:40	 From Laurel Cooper : Another good tool for managing git is SourceTree
+13:23:14	 From Alexander Diehl : The unfortunate thing about the FMA is the lack of definitions for many terms.  It may be possible to generate a definition by looking at FMA
+13:25:20	 From Alexander Diehl : Also, years ago FMA ceded the cell domain to CL, and many FMA cell types were brought into the CL with CL IDs created and xrefs made to the original FMA terms
+13:28:22	 From Alexander Diehl : (Which is why we don’t directly import FMA cell type terms)
+13:32:41	 From Ellen Quardokus, MC-IU : Why do you use ELK as opposed to other reasoners?
+13:33:42	 From Ellen Quardokus, MC-IU : Advantages of ELK versus other ones?
+13:36:39	 From Nicole Vasilevsky : One advantage is it is much faster
+13:38:04	 From Laurel Cooper : Learning lots of good tips!
+13:42:25	 From Alexander Diehl : To get the OWLViz tab, pick the menu item Window/Tabs/OWLViz
+13:42:52	 From Nico Matentzoglu : Reasoning Ellen is very very complex (by complex we mean: very hard even for the computer). There are some reasoners that are faster because they can deal with less “logical” stuff (for example, ELK does not understand cell type ONLY in brain, while another reasoner, such as Hermit, does).
+13:43:44	 From Ellen Quardokus, MC-IU : Thanks!
+13:46:04	 From TiagoLubiana : the ontoProc vignette is really nice
+
+
+13:46:11	 From Alexander Diehl : On the other hand, the Hermit reasoner does not complete reasoning for CL in a reasonable time (or even at all), so at least for the CL, ELK is both fast and useable
+13:47:00	 From Ellen Quardokus, MC-IU : Good to know; In Protege workshop they used Hermit primarily
+13:47:27	 From Alexander Diehl : (The Hermit issues actually relate to imported Uberon axioms, not CL classes or axioms)
+13:47:28	 From TiagoLubiana : ontoProc kind of uses  the structure of the CL, but I think just the subclass relations
+13:48:03	 From Nicole Vasilevsky : You can type ‘a’ and ‘i’ to switch back and forth between the inferred and asserted panels
+13:48:21	 From TiagoLubiana : Here is the link for ontoProc's vignette, in case someone is interested:
+https://www.bioconductor.org/packages/release/bioc/vignettes/ontoProc/inst/doc/ontoProc.html
+13:55:00	 From Paola Roncaglia : What if I already have Protege preferences set to edit another ontology (EFO in my case ) - do I need to change preferences manually every time?
+13:55:18	 From Alexander Diehl : Unfortunately yes, as far as I know
+13:55:28	 From Paola Roncaglia : :-( Thanks Alex
+13:56:05	 From Meena : ok thanks...
+13:57:54	 From M. Todd Valerius : Thanks very much!!
+13:58:01	 From Paola Roncaglia : Thank you
+13:58:09	 From Marion Shadbolt : Thanks everyone :)
+13:58:13	 From Laurel Cooper : Thanks for the informative presentation!
+13:58:32	 From Keith Curtis : Thanks!
