@@ -64,7 +64,7 @@ Friday, September 25, 2020, 11 am to 1:30 pm, US Eastern Time Zone
 ## Slides and Recordings:
 - [History and Structure of the Cell Ontology](https://drive.google.com/file/d/13Jxj36KLh5uQoD-vcIcZQnxZYzTWuWlX/view) (Alex Diehl)
 - [Basic introduction to ontologies and ontology logic](https://docs.google.com/presentation/d/11WeCHCeGYSPEO7hUYFTdPivptxX4ajj5pVHDm24j4JA/edit?usp=sharing) (David Osumi-Sutherland)
-- [Pracical application Day 1 Recording](https://www.dropbox.com/s/355bgyzr03gpqrk/CellOntologyTraining_Day1_PracticalApplication_2020-09-24.mp4?dl=0). (Nicole Vasilevsky, David Osumi-Sutherland, Alex Diehl). On Day 1 we covered:
+- [Pracical application Day 1 Recording](https://www.dropbox.com/s/355bgyzr03gpqrk/CellOntologyTraining_Day1_PracticalApplication_2020-09-24.mp4?dl=0) (Nicole Vasilevsky, David Osumi-Sutherland, Alex Diehl). On Day 1 we covered:
     - create a ticket in the [Cell Ontology GitHub repository](https://github.com/obophenotype/cell-ontology/issues)
     - create a fork from GitHub
     - browsing, searching and querying the Cell Ontology
