@@ -48,11 +48,18 @@ Participants will need to have access to the following resources and tools prior
   - Important: it seems Elk 0.5. Does not work with all versions of Protege, in particular, 5.2 and below. These instructions were only tested with Protege 5.5!
 - _Optional_ **GitHub Desktop** - Please make sure you have some kind of git client installed on your Machine. If you are new to Git, please install [GitHub Desktop](https://desktop.github.com/)
 
-## CELLS 2020 Workshop
+## Related Workshop: CELLS 2020 Workshop
 
 [4th International Cells in Experimental Life Science Workshop, CELLS 2020](https://sites.google.com/view/cells-2020-workshop/home)   
 A virtual workshop associated with ICBO 2020 and JOWO 2020  
 Friday, September 25, 2020, 11 am to 1:30 pm, US Eastern Time Zone  
+
+## Resources
+
+- [Ontology tutorials and Resources](https://tislab.org/ontologyResources.html)
+- [Managing Translational Informatics Projects (MTIP)](https://data2health.github.io/mtip-tutorial)
+- [Monkeying around with OWL: Musings on building and using ontologies, posts by Chris Mungall](https://douroucouli.wordpress.com/)
+
 
 ## Contact
 
