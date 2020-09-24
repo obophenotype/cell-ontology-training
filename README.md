@@ -16,7 +16,7 @@ Note - the entire session will be recorded.
 
 ## Agenda:
 
-1. **History and Structure of the Cell Ontology** (Alex Diehl)
+1. **[History and Structure of the Cell Ontology](https://drive.google.com/file/d/13Jxj36KLh5uQoD-vcIcZQnxZYzTWuWlX/view)** (Alex Diehl)
     - Decisions that have gone into why the structure is the way it is
     - Imported ontologies, such as Uberon, GO, PRO
     - Who has been using the CL
