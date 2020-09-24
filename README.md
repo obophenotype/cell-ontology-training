@@ -12,7 +12,7 @@ Thursday, Sept 24, 2020 and Oct 01, 2020
 https://zoom.us/j/95194536310  
 Password: Please [register](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform) to obtain the password. 
 
-Note - the entire session will be recorded.
+Note - the practical application session will be recorded.
 
 ## Agenda:
 
