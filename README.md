@@ -71,6 +71,7 @@ Friday, September 25, 2020, 11 am to 1:30 pm, US Eastern Time Zone
 - [A guide to what relations to use where in the Cell Ontology](https://github.com/obophenotype/cell-ontology/blob/draft_relations_doc/documentation/relations_guide.md)
 
 ### General Resources
+- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 - [Ontology tutorials and Resources](https://tislab.org/ontologyResources.html): Includes links to ontology browsers, past tutorials and slides, links to ontology tools and relevant publications.
 - [Monkeying around with OWL: Musings on building and using ontologies](https://douroucouli.wordpress.com/): Blog posts by Chris Mungall.
 - [Managing Translational Informatics Projects (MTIP)](https://data2health.github.io/mtip-tutorial): Includes GitHub tutorials.
