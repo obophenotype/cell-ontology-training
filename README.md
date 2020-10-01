@@ -30,7 +30,7 @@ Note - the practical application session will be recorded.
 ----- DAY 2 ----
 
 1. **Intro/Recap**: 
-    - Intro to Ontologies [quick recap](https://docs.google.com/presentation/d/184fxBymEk__ioug5PSUH5gfcYbcRA__LujnC92ziWg4/edit?usp=sharing).
+    - Intro to Ontologies [quick recap](https://docs.google.com/presentation/d/184fxBymEk__ioug5PSUH5gfcYbcRA__LujnC92ziWg4/edit?usp=sharing)
     - [A guide to what relations to use where in the Cell Ontology](https://github.com/obophenotype/cell-ontology/blob/draft_relations_doc/documentation/relations_guide.md)
     - [Intro to GitHub workflows](https://docs.google.com/presentation/d/1M8NZQOIQVswng-so6ROxVeMJfDnzth7BYNj_5MXxEik/edit#slide=id.g9db6baf776_1_0)
 2. **Practical application** 
