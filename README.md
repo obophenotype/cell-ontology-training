@@ -86,7 +86,7 @@ Friday, September 25, 2020, 11 am to 1:30 pm, US Eastern Time Zone
     - create a fork from GitHub
     - browsing, searching and querying the Cell Ontology
     - set up preferences in Protege. **Note** - you can find your ID range [here](https://github.com/obophenotype/cell-ontology/blob/master/src/ontology/cl-idranges.owl)
-- [Day 2 Recording]() - _coming soon_
+- [Day 2 Recording](https://www.dropbox.com/s/7dodg4jll75vtbo/CellOntologyTraining_Day2_2020-10-02.mp4?dl=0)
 ## Contact
 
 Register [here](https://docs.google.com/forms/d/e/1FAIpQLSdQud9QmKylV-6quqhWe6xIQxMu542qKqny3vOZRI9-XLreGA/viewform).
