@@ -1,0 +1,118 @@
+11:01:16	 From Meena : hi all :-)
+11:01:30	 From Marion Shadbolt : G’day
+11:04:48	 From Nicole Vasilevsky : Training google doc: https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit
+11:09:03	 From Laurel Cooper : There seems to be a fair bit of background noise
+11:09:30	 From Laurel Cooper : OK :-)
+11:09:35	 From Meena : yes
+11:09:39	 From Keith Curtis : yes
+11:11:34	 From Ellen Quardokus, MC-IU : Nicole, did you want to record?
+11:13:11	 From Nicole Vasilevsky : Thanks for the reminder to record, we are recording now :)
+11:18:44	 From Nico Matentzoglu : Here is the CL relation guide David was showing before: https://github.com/obophenotype/cell-ontology/blob/draft_relations_doc/documentation/relations_guide.md (I also added it to the general notes)
+11:27:23	 From Marion Shadbolt : Also have to make sure your fork stays up to date with the original repo
+11:28:35	 From Nicole Vasilevsky : yes ^
+11:29:42	 From Laurel Cooper : Is ELK 0.43 sufficient?
+11:29:46	 From Nico Matentzoglu : yes
+11:29:57	 From Keith Curtis : Are you suggesting to create a new branch for say each new term request, or say a branch per user?
+11:30:15	 From Meena : myself
+11:30:54	 From Nicole Vasilevsky : Keith - I usually create a new branch for each new term request
+11:31:09	 From davidos : https://docs.google.com/presentation/d/1M8NZQOIQVswng-so6ROxVeMJfDnzth7BYNj_5MXxEik/edit#slide=id.g9db6baf776_1_6
+11:32:00	 From Nico Matentzoglu : One way to make good branch names is to name them by their corresponding issue.
+11:32:13	 From Jason Hilton : So 1) make an issue
+11:32:16	 From Nicole Vasilevsky : Yes, like issue-1404 could be your branch name
+11:32:21	 From Jason Hilton : 2) name the branch via the issue?
+11:32:26	 From Meena : can you see my screen.. github
+11:32:29	 From Nico Matentzoglu : yes
+11:32:31	 From Jason Hilton : 3) submit PR & link PR in issue?
+11:32:35	 From Meena : ok
+11:32:44	 From Nico Matentzoglu : Nicole best show it
+11:32:49	 From Nicole Vasilevsky : yes Jason!
+11:39:11	 From TiagoLubiana : this is a good blog post about good commit messages, by the way:
+https://chris.beams.io/posts/git-commit/
+11:40:06	 From Marion Shadbolt : Will it pick up you put MONDO instead of CL?
+11:40:15	 From Nico Matentzoglu : Good question!
+11:40:18	 From Nico Matentzoglu : It wont!
+11:48:11	 From Nico Matentzoglu : Does anyone have a very simple-to-setup suggestion for a git client with a GUI for Ubuntu?
+11:48:40	 From Nico Matentzoglu : Tiago mentions https://github.com/shiftkey/desktop
+11:48:53	 From Nico Matentzoglu : But it still need a bit of command line action to set up
+11:48:54	 From M. Todd Valerius : IF we end up doing a large number of changes in a setting, is it reasonable to roll these into a single issue? Or is there some form of administration that needs changes broken into several issues?
+11:49:23	 From Nico Matentzoglu : Ideally you should not have large pull requests
+11:49:35	 From Nico Matentzoglu : Issues should be small and easy to review
+11:49:36	 From Alexander Diehl : I would recommend starting with simpler edits
+11:49:56	 From M. Todd Valerius : I should state a number, maybe 10-15.
+11:50:52	 From Alexander Diehl : If you are just adding new terms, without any changes to the hierarchy, that is probably fine
+11:50:54	 From Nico Matentzoglu : When you decide how “large” an edit is, you should think of it from the reviewers perspective (the person that reviews the pull). It should be relatively easily to review a single pull.
+11:51:28	 From Alexander Diehl : More complex changes are best broken down to a set of minimal steps
+11:51:45	 From Nico Matentzoglu : So 10-15 may be fine if all items are very similar, but in our experience 1 pull request per term is most often the best
+11:52:51	 From Alexander Diehl : In any event, I would recommend to try adding a single term as an initial exercise, just to work through the steps involved
+11:53:18	 From davidos : Simpler is easier to review, so best to keep changes small if you can.  But I often find I need to do a little more than just one term per pull request, for example if a term needs a new parent class, or I find some logical issue with related terms that affect the classification of the term I’m adding/
+11:56:31	 From Nico Matentzoglu : For the very keen people: a guide on how to write good commit messages https://chris.beams.io/posts/git-commit/
+11:57:40	 From Laurel Cooper : Coffee!
+11:58:32	 From Meena : ok thanks for staying back :-)
+12:00:32	 From Meena : can i get help on creating branch and pull request etc. cos i got the desktop installed 
+12:21:59	 From Laurel Cooper : I can volunteer if you need someone
+12:22:09	 From Laurel Cooper : Have to plug in my headset
+12:41:07	 From Meghan Balk (she/her) : Can you show where you put the ORCID again?
+12:42:07	 From Meghan Balk (she/her) : And did you name your branch initials_ontology_issue? Is that best practice? Or, is that just for new term requests to put initials_ontology_thing?
+12:42:24	 From Keith Curtis : I can volunteer, but I don't have github desktop
+12:43:13	 From Nicole Vasilevsky : There is not a proper best practice that I’m aware of. If I am working on a specific issue, I name the branch issue-###
+12:43:40	 From Ellen Quardokus, MC-IU : How do you know you’re opening the branch in Protege of the CL ontology as opposed to master?
+12:43:43	 From Nicole Vasilevsky : If I am not working on an issue, I actually don’t have a consistent way of naming a branch. Sometimes I’ll do nv-edits-2020-10-02
+12:44:01	 From Nicole Vasilevsky : or name it something like muscle-cell (or something related to what I’m working on)
+12:44:28	 From Meghan Balk (she/her) : thanks!
+12:46:23	 From Nicole Vasilevsky : Ellen: the branch is a branch off master
+12:46:56	 From Nicole Vasilevsky : On the bottom left of Protege, you can see what branch you are on
+12:47:07	 From Nicole Vasilevsky : like on Laurel’s screen right now, it shows LC-CL
+12:47:23	 From Nicole Vasilevsky : If she was on master, it would say master down there
+12:47:33	 From Nicole Vasilevsky : This is a new feature as of a few years ago, it’s quite nice!
+12:47:41	 From Meghan Balk (she/her) : Oh neat! That’s so nice
+12:49:02	 From Ellen Quardokus, MC-IU : got it Nico, Thanks!
+12:50:07	 From Ellen Quardokus, MC-IU : Nico, so I picked the branch in GitHub desktop, so then it picked the right thing in protege…?
+12:50:29	 From Ellen Quardokus, MC-IU : Nico, it shows the correct branch in Protege, and that is how I got there.
+12:52:01	 From Nicole Vasilevsky : Yes, Protege knows which branch you are on
+12:56:47	 From Laurel Cooper : That’s a cool zoom feature- I did not realize there was advanced screen sharing
+12:58:17	 From M. Todd Valerius : @laurel, We use that to share music during breaks at consortium meetings, creating Spotify playlists for each conference. :)
+13:14:39	 From Laurel Cooper : sure
+13:27:35	 From Paola Roncaglia : What’s the release schedule/policy for CL please?
+13:30:35	 From Nicole Vasilevsky : Here is the CL editors mailing list: https://groups.google.com/g/cl_edit
+13:31:03	 From Nicole Vasilevsky : I think you can ask to join (or ask me directly)
+13:34:28	 From Ellen Quardokus, MC-IU : is there a way to know whether someone else requested the same term added?  Is it easily searchable through GitHub issues?
+13:34:54	 From Marion Shadbolt : When you go to the issues tab it has pretty good search functionality
+13:35:56	 From Marion Shadbolt : But probably also need to careful to search closed issues as well because maybe the term had been rejected in the past for some reason or the edit has been made but not yet released
+13:36:06	 From Marion Shadbolt : By default it usually searches only open issues
+13:36:54	 From Ellen Quardokus, MC-IU : yes that’s a lot to try and track down… I was hoping it would be a bit simpler to search all at once to not add extra work..
+13:39:25	 From Nicole Vasilevsky : You can search open or closed issues
+13:39:48	 From Nicole Vasilevsky : underneath the search bar, it shows the number of results that are open or closed, you can click on both of thosee
+13:40:09	 From Marion Shadbolt : Yes sorry I wasn’t clear, it is just that if you go directly to the search bar it usually has ‘open’ as a default, if you delete that it searches everything
+13:40:13	 From Nicole Vasilevsky : also, on filters, the default is:
+13:40:14	 From Nicole Vasilevsky : is:issue is:open
+13:40:21	 From Nicole Vasilevsky : you can just search is:issue
+13:40:32	 From Nicole Vasilevsky : and it will give you all the open and closed issues
+13:40:58	 From Ellen Quardokus, MC-IU : @Nicole @Marion, thanks!  Sorry I have not submitted any issues yet because I wanted to make sure I wasn’t doing what I was afraid of doing, without asking best practice for this
+13:41:24	 From Nicole Vasilevsky : Please don’t be afraid to make mistakes
+13:41:28	 From Nicole Vasilevsky : I make mistakes constantly!
+13:41:42	 From Marion Shadbolt : No worries, I am talking from general GitHub experience and I tend to forget about the is:open thing so wanted to point it out
+13:42:39	 From Marion Shadbolt : But also I agree with Nicole about not worrying about making mistakes, if you create an issue that doesn’t make sense the worst that can happen is someone closes it or asks for more info but everyone will end up learning from it :)
+13:44:14	 From Ellen Quardokus, MC-IU : OK, I hate making extra work for people but thankful to hear!
+13:53:24	 From Laurel Cooper : Thanks for the great workshop over the past 2 weeks.  I was very impressed with all the preparation
+13:53:38	 From Nicole Vasilevsky : Thank you Laurel!
+13:54:27	 From Paola Roncaglia : I’m an editor for EFO as weel, and was a GO editor for 6 years
+13:54:32	 From Laurel Cooper : I work on ontologies for plants
+13:55:18	 From Laurel Cooper : Plant Ontology, Plant Trait ontology etc
+13:55:23	 From Nicole Vasilevsky : I work on Mondo, Human Phenotype Ontology, Cell Ontology, and a bit on PATO, Uberon
+13:55:59	 From TiagoLubiana : I edit a lot of Wikidata, not as rigorous as OBO ontologies, but the entry barrier is lower
+13:56:01	 From Laurel Cooper : Once you learn the tools such as Protege and Git, it will be applicable to most of the ontologies
+13:56:22	 From Meghan Balk (she/her) : +1 @Laurel
+13:56:29	 From Meghan Balk (she/her) : I’d love design pattern training
+13:56:56	 From Nicole Vasilevsky : Please join our mailing list - Alex will create a CL community list
+13:57:04	 From Nicole Vasilevsky : and we have the editors list
+13:57:26	 From Keith Curtis : I'm also interested in design pattern training
+13:57:37	 From Marion Shadbolt : Thanks everyone!
+13:57:46	 From Laurel Cooper : +1 on design pattern training!
+13:57:59	 From Paola Roncaglia : Thank you!
+13:58:24	 From Brian Aevermann : Id like a design pattern workshop …
+13:58:52	 From Ellen Quardokus, MC-IU : THANKS so much!
+13:58:58	 From Meena : Thanks  all!
+13:59:01	 From Laurel Cooper : I have to log off now.  Thanks for all the info
+13:59:43	 From Nicole Vasilevsky : https://join.slack.com/t/anatomy-and-cell-onto/shared_invite/zt-h8mtt4s3-d4gymfzyflYJUE_K_IGnpw
+14:00:24	 From Keith Curtis : Thanks!
+14:00:37	 From Brian Aevermann : Thanks everyone!
