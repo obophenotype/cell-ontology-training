@@ -28,11 +28,12 @@ Note - the practical application session will be recorded.
     
 ----- DAY 2 ----
 
-1. Intro: 
+1. **Intro/Recap**: 
     - Intro to Ontologies [quick recap](https://docs.google.com/presentation/d/184fxBymEk__ioug5PSUH5gfcYbcRA__LujnC92ziWg4/edit?usp=sharing).
     - [Intro to GitHub workflows](https://docs.google.com/presentation/d/1M8NZQOIQVswng-so6ROxVeMJfDnzth7BYNj_5MXxEik/edit#slide=id.g9db6baf776_1_0)
-    - Editing in [Protege](https://protege.stanford.edu/)
-    - Pull Requests
+2. **Practical application** 
+    - [Editing in Protege](https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit#heading=h.xcohup59d78)
+    - [Pull Requests](https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit#heading=h.qhm126dnsla4)
     <!-- - Cell Ontology Practical Training materials are [here}(https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit) -->
 4. **Use cases**
     - Participant use cases - how do participants want to use the CL?
