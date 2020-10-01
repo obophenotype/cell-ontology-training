@@ -25,6 +25,12 @@ Note - the practical application session will be recorded.
 3. **[Practical application](https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit?usp=sharing)** (Nicole Vasilevsky, Alex Diehl, David Osumi-Sutherland)
     - How to use [GitHub](https://github.com/obophenotype/cell-ontology/issues/) to request terms
     - Browsing, searching and querying in [Protege](https://protege.stanford.edu/)
+    
+----- DAY 2 ----
+
+1. Intro: 
+    - Intro to Ontologies [quick recap](https://docs.google.com/presentation/d/184fxBymEk__ioug5PSUH5gfcYbcRA__LujnC92ziWg4/edit?usp=sharing).
+    - [Intro to GitHub workflows](https://docs.google.com/presentation/d/1M8NZQOIQVswng-so6ROxVeMJfDnzth7BYNj_5MXxEik/edit#slide=id.g9db6baf776_1_0)
     - Editing in [Protege](https://protege.stanford.edu/)
     - Pull Requests
     <!-- - Cell Ontology Practical Training materials are [here}(https://docs.google.com/document/d/1owDKQjZG4MDrhQDAU9zjFjcxk9M0WAtXjsx38hR3T4w/edit) -->
