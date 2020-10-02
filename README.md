@@ -88,7 +88,7 @@ Friday, September 25, 2020, 11 am to 1:30 pm, US Eastern Time Zone
     - set up preferences in Protege. **Note** - you can find your ID range [here](https://github.com/obophenotype/cell-ontology/blob/master/src/ontology/cl-idranges.owl)
 - [Day 2 Recording](https://www.dropbox.com/s/7dodg4jll75vtbo/CellOntologyTraining_Day2_2020-10-02.mp4?dl=0) (Nicole Vasilevsky, David Osumi-Sutherland, Alex Diehl, Nico Matentzoglu). On Day 2 we covered:
     - Version control and GitHub
-    - Creating a branch on GitHub and doing a Pull Request
+    - Creating a branch on GitHub and doing a Pull Request (see video [here](https://www.dropbox.com/s/dfnce9xaroqqqa5/HowToMakeAPullRequest.mov?dl=0))
     - Creating new entities and editing terms
 
 ## Contact
